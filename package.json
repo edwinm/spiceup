@@ -1,0 +1,17 @@
+{
+    "name": "spiceup",
+    "version": "1.0.0",
+    "description": "Spice up your HTML.",
+    "keywords": [
+        "css",
+        "style"
+    ],
+    "bugs": "https://github.com/edwinm/spiceup/issues",
+    "license": "MIT",
+    "author": "Edwin Martin <edwin@bitstorm.org>",
+    "homepage": "https://github.com/edwinm/spiceup/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edwinm/spiceup.git"
+    }
+}
