@@ -1,0 +1,114 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-display: optional;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 99%);
+    color: hsl(0, 0%, 2%);
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin: 0;
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+a {
+    color: hsl(209, 87%, 33%);
+}
+a:visited {
+    color: hsl(281, 87%, 33%);
+}
+a:hover {
+    color: hsl(0, 87%, 33%);
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: hsl(209, 87%, 33%);
+    color: hsl(209, 0%, 98%);
+}
+
+main {
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+h1,
+h2,
+h3 {
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 2rem 1rem;
+    font-size: 3rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(209, 22%, 30%);
+}
+
+.light {
+    color: hsl(0, 0%, 50%);
+}
+
+.horizontal > *,
+.horizontal-justify > * {
+    display: inline-block;
+    margin-right: 0.5rem;
+    align-self: flex-end;
+}
+
+@supports (display: flex) {
+    .horizontal-justify {
+        display: flex;
+    }
+    .horizontal-justify > * {
+        flex: 1 1 auto;
+    }
+    .horizontal-justify > *:last-child {
+        margin-right: 0;
+    }
+    .horizontal-justify input,
+    .horizontal-justify select {
+        width: 100%;
+    }
+}

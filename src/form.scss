@@ -1,0 +1,86 @@
+button,
+input[type="submit"],
+input[type="button"] {
+    height: 2rem;
+    background-color: #b5c9e6;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    background-color: hsla(205, 31%, 97.5%, 1);
+    border-radius: 3px;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+    margin-left: 12rem;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+legend {
+    position: absolute;
+    width: 12rem;
+    font-weight: bold;
+    left: -12rem;
+    color: hsl(209, 87%, 33%);
+}
+
+@media (max-width: 40rem) {
+    fieldset {
+        margin: 1rem 0 0
+    }
+    legend {
+        position: static;
+        left: 0;
+        border-bottom: 1px solid lightblue;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+label label {
+    margin-bottom: 0;
+}
+input,
+textarea,
+select {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 16px;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid lightblue;
+    background-color: white;
+}
+input,
+select {
+    height: 2rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=url],
+input[type=number],
+textarea {
+    width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    margin: 0.5rem 0.7rem 0 0;
+    height: auto;
+}
