@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    background-color: hsl(0, 0%, 99%);
-    color: hsl(0, 0%, 2%);
+    color: $fg-color;
+    background-color: $bg-color;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
@@ -43,20 +43,20 @@ q {
 }
 
 a {
-    color: hsl(209, 87%, 33%);
+    color: hsl(hue($primary-color), 87%, 33%);
 }
 a:visited {
-    color: hsl(281, 87%, 33%);
+    color: hsl(hue(adjust-hue($primary-color, -30deg)), 87%, 33%);
 }
 a:hover {
-    color: hsl(0, 87%, 33%);
+    color: hsl(hue(adjust-hue($primary-color, +30deg)), 87%, 33%);
 }
 
 header {
     width: 100%;
     margin: 0 auto;
-    background-color: hsl(209, 87%, 33%);
-    color: hsl(209, 0%, 98%);
+    background-color: hsl(hue($primary-color), 87%, 33%);
+    color: hsl(hue($primary-color), 0%, 98%);
 }
 
 main {
@@ -83,11 +83,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: hsl(209, 22%, 30%);
+    color: hsl(hue($primary-color), 22%, 30%);
 }
 
 .light {
-    color: hsl(0, 0%, 50%);
+    color: $light-color;
 }
 
 .horizontal > *,

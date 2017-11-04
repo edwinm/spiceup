@@ -20,8 +20,8 @@ html {
   font-family: Trebuchet MS, Arial, Helvetica, sans-serif; }
 
 body {
-  background-color: #fcfcfc;
   color: #050505;
+  background-color: #fcfcfc;
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
@@ -46,10 +46,10 @@ a {
   color: #0b579d; }
 
 a:visited {
-  color: #6f0b9d; }
+  color: #0b9d9b; }
 
 a:hover {
-  color: #9d0b0b; }
+  color: #0b0d9d; }
 
 header {
   width: 100%;
@@ -124,7 +124,7 @@ button,
 input[type="submit"],
 input[type="button"] {
   height: 2rem;
-  background-color: #b5c9e6;
+  background-color: #8bb4da;
   border: none;
   border-radius: 3px;
   font-size: 1rem;
@@ -175,7 +175,7 @@ select {
   font-size: 16px;
   border: none;
   padding: 0.5rem;
-  border-bottom: 1px solid lightblue;
+  border-bottom: 1px solid #cfe6fc;
   background-color: white; }
 
 input,

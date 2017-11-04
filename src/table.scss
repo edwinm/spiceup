@@ -11,7 +11,7 @@ table {
 
 th {
     padding: 0.5rem;
-    color: hsl(209, 87%, 33%);
+    color: hsl(hue($primary-color), 87%, 33%);
     text-align: left;
 }
 
@@ -20,5 +20,5 @@ td {
 }
 
 tr {
-    border-bottom: 1px solid hsl(209, 87%, 90%);
+    border-bottom: 1px solid hsl(hue($primary-color), 87%, 90%);
 }
