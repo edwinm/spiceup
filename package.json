@@ -1,10 +1,14 @@
 {
     "name": "spiceup",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Spice up your HTML.",
     "keywords": [
         "css",
-        "style"
+        "style",
+        "pe",
+        "progressive enhancement",
+        "semantic html",
+        "accessibiliy"
     ],
     "bugs": "https://github.com/edwinm/spiceup/issues",
     "license": "MIT",
