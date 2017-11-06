@@ -51,6 +51,13 @@ a:visited {
 a:hover {
   color: #0b0d9d; }
 
+@media print {
+  a, a:visited {
+    color: #050505;
+    text-decoration: none; }
+  a::after {
+    content: " (" attr(href) ") "; } }
+
 header {
   width: 100%;
   margin: 0 auto;

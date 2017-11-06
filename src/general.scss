@@ -51,6 +51,15 @@ a:visited {
 a:hover {
     color: hsl(hue(adjust-hue($primary-color, +30deg)), 87%, 33%);
 }
+@media print {
+    a, a:visited {
+        color: $fg-color;
+        text-decoration: none;
+    }
+    a::after {
+        content: " (" attr(href) ") ";
+    }
+}
 
 header {
     width: 100%;
