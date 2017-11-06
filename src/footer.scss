@@ -5,10 +5,13 @@ footer {
     color: hsl(0, 0%, 80%);
     background-color: hsl(hue($primary-color), 22%, 23%);
 }
-footer a {
+footer a:link {
     color: hsl(0, 0%, 90%);
     text-decoration: none;
     padding: 1rem;
+    background: none;
+    text-shadow: none;
+
 }
 footer a:hover {
     color: hsl(211, 83%, 52%);

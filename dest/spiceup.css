@@ -219,10 +219,12 @@ footer {
   color: #cccccc;
   background-color: #2e3b48; }
 
-footer a {
+footer a:link {
   color: #e6e6e6;
   text-decoration: none;
-  padding: 1rem; }
+  padding: 1rem;
+  background: none;
+  text-shadow: none; }
 
 footer a:hover {
   color: #1f81ea; }
