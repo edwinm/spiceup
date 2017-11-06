@@ -8,7 +8,7 @@ var livereload = require('gulp-livereload');
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function () {
-    return gulp.src('./src/main.scss')
+    return gulp.src('./src/spiceup.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
