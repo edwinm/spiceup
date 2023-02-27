@@ -19,7 +19,7 @@
         "url": "https://github.com/edwinm/spiceup.git"
     },
     "devDependencies": {
-        "gulp": "^3.9.1",
+        "gulp": "^4.0.2",
         "gulp-livereload": "^3.8.1",
         "gulp-sass": "^3.1.0",
         "gulp-sourcemaps": "^2.6.1"
